@@ -1197,17 +1197,17 @@ if ($custom_article_footer !== '') {
 					</ul>
 				</td>
 			</tr>
-			<!-- haleyjd 20140420: FIXME: DoomWiki.org-specific; make generic! (hosted button id value edited for Orain) -->
-			<tr>
-				<td colspan="2" style="text-align:center;">
-					<form action="https://www.paypal.com/us/cgi-bin/webscr" method="post">
-						<input type="hidden" name="cmd" value="_s-xclick">
-						<input type="hidden" name="hosted_button_id" value="9PHM56HNJ428S">
-						<input type="image" src="<?php $this->text('stylepath') ?>/monaco/style/images/contribute-button.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" style="width:139px;margin:0;">
-					</form>
-				</td>
-			</tr>
-		</tbody>
+			<!-- haleyjd 20140420: FIXME: DoomWiki.org-specific; make generic! (hosted button id value edited for Orain, uncomment all but this line and change id for your own site) -->
+		<!-- 	<tr>
+		<!-- 		<td colspan="2" style="text-align:center;"> -->
+		<!-- 			<form action="https://www.paypal.com/us/cgi-bin/webscr" method="post"> -->
+		<!-- 				<input type="hidden" name="cmd" value="_s-xclick"> -->
+		<!--				<input type="hidden" name="hosted_button_id" value="9PHM56HNJ428S"> -->
+		<!-- 				<input type="image" src="<?php $this->text('stylepath') ?>/monaco/style/images/contribute-button.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" style="width:139px;margin:0;"> -->
+		<!-- 			</form> -->
+		<!-- 		</td> -->
+		<!-- 	</tr> -->
+	 	</tbody>
 <?php
 	}
 	//END: create static box
